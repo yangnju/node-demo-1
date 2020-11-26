@@ -25,7 +25,7 @@ var server = http.createServer(function(request, response){
     response.statusCode = 200
     response.setHeader('Content-Type', 'text/html;charset=utf-8')
     response.write(`
-        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./x">
         <h1>这是一个h1</h1>
     `)
     response.end()
